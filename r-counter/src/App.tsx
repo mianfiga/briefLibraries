@@ -31,7 +31,7 @@ function App() {
         >
           Learn React
         </a>
-        {data.map((d: any) => `a vale: ${d.a} y b vale: ${d.b}`)}
+        {data.map((d: any) => `a's value is : ${d.a} & b's value is: ${d.b}`)}
         <Counter />
         <Counter2 />
       </header>
